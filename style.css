@@ -1,0 +1,332 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Helvetica, Arial, Tahoma, sans-serif;
+	margin:0px;
+	padding:0px;
+	background:#F9F9F9;
+	
+}
+ul{
+	margin:0px;
+	padding:0px;
+}
+ul li{
+	list-style:none;
+	
+}
+a{
+	text-decoration:none;
+}
+
+#header{
+	height:100px;
+	background-color:#5ABF6C;
+}
+#header #header_margin{
+	margin:0px auto;
+	width:1000px;
+	height:100px;
+}
+#menu li{
+	float:left;
+}
+#menu li#logo{
+	margin-top:15px;
+}
+#menu li.text a{
+	font-size:18px;
+	color:#fff;
+	font-family:Quicksand;
+}
+#menu li.text{
+	padding:50px 0px 0px 15px;
+}
+#menu_right li{
+	float:right;
+}
+#menu_right li#hotline_icon{
+	border:2px solid #FFF;
+	width:194px;
+	height:38px;
+	border-radius:40px;
+	margin:35px 0px 0px 25px;
+}
+#menu_right li#shop_icon{
+	margin-top:45px;
+}
+#hotline_icon a img{
+	position: relative;
+	left:15px;
+	top:5px;
+}
+#hotline_icon span{
+	position: relative;
+	left:25px;
+	font-size:18px;
+	color:#fff;
+	font-family:Quicksand;
+
+}
+#banner{
+	height:600px;
+	background-color:#5ABF6C;
+}
+#banner #banner_margin{
+	margin:0px auto;
+	width:1000px;
+	height:600px;
+}
+#banner_margin #text_intro{
+	font-family:SVN-Blog Script;
+	padding-top:150px;
+	color:#fff;
+}
+div#button_product{
+	background:#3DD37D;
+	border:0px solid black;
+	width:279px;
+	height:64px;
+	border-radius:40px;
+}
+#banner_margin #button_product span{
+	text-align:center;
+	font-size:24px;
+	font-family:Quicksand;
+	color:#FFFFFF;
+	position: relative;
+	top:10px;
+	left:45px;
+}
+#banner_margin #button_product img{
+	position: relative;
+	left:30px;
+	top:20px;
+}
+
+#banner_margin #banner_produce{
+	padding-top:100px;
+}
+#banner_margin .banner_margin_left{
+	float:left;
+}
+#content {
+	margin:0px;
+	padding:0px;
+}
+#content #ten_year{
+	border:0px;
+	background:url('./donavi/10 Years.png')  no-repeat;
+	background-position:center center;
+	height:422px;
+	margin:10px auto;
+}
+#ten_year #title{
+	text-align:center;
+	padding-top:60px;
+}
+#title p.title_10year{
+	color:#3DD37D;
+	font-family:SVN-Blog Script;
+}
+#main #main_margin{
+	
+	width:1140px;
+	margin:20px auto;
+}
+
+#main_margin #gioithieu p{
+	padding-top:0px;
+	text-align:center;
+}
+#main_margin #gioithieu p.head{
+	font-family:SVN-Blog Script;
+	color:#3DD37D;
+	font-size:56px;
+}
+#main_margin #slide_bar{
+	
+	width:700px;
+	height:40px;
+	margin:10px auto;
+}
+#slide_bar a:hover{
+	background-color:#3DD37D;
+	color:#FFF;
+}
+#slide_bar a:focus{
+	background-color:#3DD37D;
+	color:#FFF;
+}
+#slide_bar a{
+	display:block;
+	font-size:16px;
+	font-family:Quicksand;
+	color:#999999;
+	float:left;
+	width:120px;
+	height:30px;
+	border-radius:20px;
+	text-align:center;
+	padding-top:10px;
+	margin:0px 0px 0px 15px;
+	background-color:#FFFFFF;
+}
+#main_margin .product{
+	width:1140px;
+	height:888px;
+	margin:0px auto;
+}
+
+.product .main_product_margin{
+	font-family:Quicksand;
+	font-size:21px;
+	background-color:#FFFFFF;
+	width:263px;
+	height:386px;
+	border:0px solid black;
+	border-radius:15px;
+	float:left;
+	margin:10px;
+	box-shadow:0px 14px 14px -10px #666;
+}
+
+.main_product_margin {
+	text-align:center;
+	line-height:40px;
+}
+.main_product_margin a .profile{
+	font-size:16px;
+	width:200px;
+	height:41px;
+	margin:0px auto;
+	background-color:#FFF;
+	color:#3DD37D;
+	border:1px solid #CCC;
+	border-radius:40px;
+}
+.main_product_margin a{
+	text-decoration:none;
+}
+.main_product_margin a .profile:hover{
+	background-color:#3DD37D;
+	color:#FFF;
+}
+.button_see{
+	margin:10px auto;
+	text-align:center;
+	width:200px;
+	height:30px;
+	border-radius:40px;
+	padding-top:15px;
+	background-color:#3DD37D;
+	
+}
+.button_see a{
+	color:#fff;
+}
+
+
+#contact{
+	height:620px;
+	background-color:#E8F1E9;
+}
+#contact #contact_margin{
+	width:1000px;
+	margin:10px auto;
+}
+#contact_margin .contact_margin_left{
+	float:left;
+}
+#contact_gb{
+	margin:100px 0px 0px 100px;
+	
+	width:383px;
+	height:138px;
+	color:#3DD37D;
+	font-family:SVN-Blog Script;
+	font-size:56px;
+}
+div#address ul li{
+	margin:20px 0px 0px 100px;
+	
+	width:276px;
+	height:51px;
+	color:#666666;
+	font-family:Quicksand;
+	font-size:18px;
+}
+#address li:before{
+	content: url("./donavi/Ellipse 2.png");
+}
+#footer{
+	margin-top:20px;
+	height:375px;
+	background-color:#FFFFFF;
+}
+#footer #footer_margin{
+	width:1000px;
+	height:375px;
+	margin:0px auto;
+	
+}
+#footer_margin #lienhe{
+	
+	width:250px;
+	margin:50px 5px 0px 0px;
+}
+#footer_margin #sanpham_hatdd{
+
+	width:150px;
+	margin:50px 5px 0px 0px;
+}
+
+#footer_margin #sanpham_nongsankho{
+	width:150px;
+	margin:50px 5px 0px 0px;
+}
+
+#footer_margin #sanpham_hoaqua{
+	width:250px;
+	margin:50px 5px 0px 0px;
+}
+#footer_margin #Chungnhan{
+	width:165px;
+	margin:50px 5px 0px 0px;
+}
+.footer_margin_left{
+	float:left;
+}
+#company_name{
+	padding:10px 0px 10px 0px;
+	font-family:Quicksand;
+	font-size:16px;
+	color:#3DD37D;
+}
+#danhmuc a{
+	font-family:Quicksand;
+	font-size:14px;
+	color:#666666;
+	line-height:25px;
+}
+.danhmuc_sanpham{
+	font-family:Quicksand;
+	font-size:16px;
+	color:#333333;
+	font:bold;
+}
+
+#shop_banner{
+	border:1px solid black;
+	height:350px;
+}
+#shop_banner #shop_banner_margin{
+	border:1px solid black;
+	width:1000px;
+	margin:0px auto;
+}
+#shop_banner #shop_banner_margin .banner_margin_left{
+	border:1px solid black;
+	width:
+	
+}

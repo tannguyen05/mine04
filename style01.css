@@ -1,0 +1,347 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:Helvetica, Arial, Tahoma, sans-serif;
+	margin:0px;
+	padding:0px;
+	background:#F9F9F9;
+	
+}
+ul{
+	margin:0px;
+	padding:0px;
+}
+ul li{
+	list-style:none;
+	
+}
+a{
+	text-decoration:none;
+}
+#header{
+	height:100px;
+	background-color:#5ABF6C;
+}
+#header #header_margin{
+	margin:0px auto;
+	width:1000px;
+	height:100px;
+}
+#menu li{
+	float:left;
+}
+#menu li#logo{
+	margin-top:15px;
+}
+#menu li.text a{
+	font-size:18px;
+	color:#fff;
+	font-family:Quicksand;
+}
+#menu li.text{
+	padding:50px 0px 0px 15px;
+}
+#menu_right li{
+	float:right;
+}
+#menu_right li#hotline_icon{
+	border:2px solid #FFF;
+	width:194px;
+	height:38px;
+	border-radius:40px;
+	margin:35px 0px 0px 25px;
+}
+#menu_right li#shop_icon{
+	margin-top:45px;
+}
+#hotline_icon a img{
+	position: relative;
+	left:15px;
+	top:5px;
+}
+#hotline_icon span{
+	position: relative;
+	left:25px;
+	font-size:18px;
+	color:#fff;
+	font-family:Quicksand;
+
+}
+
+#shop_banner{
+	height:302px;
+}
+#shop_banner #shop_banner_margin{
+	
+	width:1026px;
+	height:300px;
+	margin:23px auto;
+}
+#shop_banner #shop_banner_margin .rectangle{
+	width:330px;
+	height:160px;
+	margin :5px;
+	border-radius:5px;
+	cursor:pointer;
+}
+#shop_banner #shop_banner_margin .margin_left{
+	float:left;
+}
+#shop_banner_margin .margin_left img{
+	float:right;
+}
+#shop_banner_margin .margin_left p{
+    margin: 75px 0px 0px 5px;	
+	display:inline-block;
+	font-family:Quicksand;
+	font-size:18px;
+	color:#FFFFFF;
+}
+#shop_banner_margin #Rectangle01{
+	background-color:#F1B35E;
+}
+#shop_banner_margin #Rectangle02{
+	background-color:#4DD185;
+}
+#shop_banner_margin #Rectangle03{
+	background-color:#CBA274;
+}
+#shop_banner_margin #search{
+	width:400px;
+	height:48px;
+	position: absolute;
+    right: 167px;
+    top: 350px;
+	}
+#shop_banner_margin #search button{
+	float: left;
+	cursor: pointer;
+	background:#3DD37D;
+	border:none;
+	width:48px;
+	height:48px;
+}
+#shop_banner_margin #search input[type=text]{
+	padding: 14px;
+    font-size: 17px;
+    float: left;
+    width: 80%;
+    background: #FFFFFF;
+	border:none;
+}
+#shop_banner_margin #search img{
+	position:relative;
+	right:5px;
+}
+
+#content #content_margin{
+	width:1026px;
+	margin:0px auto;
+	height:100%;
+	overflow:hidden;
+}
+#content #content_margin #nav_danhmuc{
+	width:200px;
+	height:100%;
+	float:left;
+	overflow:hidden;
+}
+#nav_danhmuc #nav_danhmuc_sanpham{
+	height:488px;
+	background:#FFFFFF;
+	margin:0px;
+	padding:10px;
+	border-radius:5px;
+}
+.title_danhmuc{
+	font-family:SVN-Blog Script;
+	font-size:24px;
+	color:#3DD37D;
+	line-height:50px;
+}
+#nav_danhmuc li{
+	color:#666666;
+	font-size:16px;
+	font-family:Quicksand;
+}
+#nav_danhmuc_sanpham li{
+	line-height:53px;	
+	border-bottom:1px solid #F9F9F9;
+	cursor:pointer;
+}
+#nav_danhmuc_sanpham li span{
+	float:right;
+	color:#E0E0E0;
+}
+
+.nav_preview_product{
+	height:423px;
+	background:#FFFFFF;
+	margin-top:50px;
+	padding:10px;
+	border-radius:5px;
+}
+.nav_preview_product a li img{
+	position:relative;
+	top:10px;
+	left:0px;
+}
+.nav_preview_product a li table{
+	margin-top:25px;
+}
+.nav_preview_product a li span{
+	position:relative;
+	top:10px;
+	right:0px;
+}
+#nav_danhmuc #tag{
+	height:233px;
+	background:#FFFFFF;
+	margin-top:50px;
+	padding:10px;
+	border-radius:5px;
+}
+#tag .tag_name{
+	float:left;
+	border:0px solid black;
+	background:#F9F9F9;
+	font-size:12px;
+	font-family:Quicksand;
+	height:40px;
+	margin:5px;
+	padding:5px;
+	text-align:center;
+	line-height:40px;
+	color:#999999;
+	cursor:pointer;
+}
+.main_content{
+	height:100%;
+	overflow:hidden;
+}
+.main_content .main_box{
+	margin-bottom:20px;
+	height:800px;
+}
+.header_box .kind_of_product{
+	font-family:Quicksand;
+	font-size:24px;
+	color:#666666;
+}
+.header_box span.kind_of_product::before{
+	content: url('./donavi/Rectangle 1.png');
+	margin:0px 10px 0px 10px;
+}
+.header_box .tab_product{
+	float:right;
+	padding:10px 10px 0px 10px;
+	font-family:Quicksand;
+	font-size:14px;
+	color:#333333;
+}
+.product{
+	height:670px;
+}
+.product .main_product_margin{
+	font-family:Quicksand;
+	font-size:16px;
+	background-color:#FFFFFF;
+	width:200px;
+	height:300px;
+	border:0px solid black;
+	border-radius:15px;
+	float:left;
+	margin:25px 2px 20px 3px;
+	box-shadow:0px 14px 14px -10px #666;
+}
+
+.main_product_margin {
+	text-align:center;
+	line-height:30px;
+}
+.main_product_margin a .profile{
+	font-size:14px;
+	width:180px;
+	height:31px;
+	margin:0px auto;
+	background-color:#FFF;
+	color:#3DD37D;
+	border:1px solid #CCC;
+	border-radius:40px;
+}
+
+.main_product_margin a .profile:hover{
+	background-color:#3DD37D;
+	color:#FFF;
+}
+.button_see{
+	margin-top:30px;
+	margin-left:auto;
+	text-align:center;
+	width:130px;
+	height:30px;
+	border-radius:40px;
+	padding-top:15px;
+	background-color:#3DD37D;
+	
+}
+.button_see a{
+	color:#fff;
+}
+footer{
+	margin-top:20px;
+	height:375px;
+	background-color:#FFFFFF;
+}
+#footer #footer_margin{
+	width:1000px;
+	height:375px;
+	margin:0px auto;
+	
+}
+#footer_margin #lienhe{
+	
+	width:250px;
+	margin:50px 5px 0px 0px;
+}
+#footer_margin #sanpham_hatdd{
+
+	width:150px;
+	margin:50px 5px 0px 0px;
+}
+
+#footer_margin #sanpham_nongsankho{
+	width:150px;
+	margin:50px 5px 0px 0px;
+}
+
+#footer_margin #sanpham_hoaqua{
+	width:250px;
+	margin:50px 5px 0px 0px;
+}
+#footer_margin #Chungnhan{
+	width:165px;
+	margin:50px 5px 0px 0px;
+}
+.footer_margin_left{
+	float:left;
+}
+#company_name{
+	padding:10px 0px 10px 0px;
+	font-family:Quicksand;
+	font-size:16px;
+	color:#3DD37D;
+}
+#danhmuc a{
+	font-family:Quicksand;
+	font-size:14px;
+	color:#666666;
+	line-height:25px;
+}
+.danhmuc_sanpham{
+	font-family:Quicksand;
+	font-size:16px;
+	color:#333333;
+	font:bold;
+}
